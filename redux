@@ -1,0 +1,40 @@
+Need for redux
+What is reduxRedux components
+Settign up components
+data flow
+react with redux
+demo
+
+
+MVC
+
+
+Need for Redux??
+
+simple -> plain js
+As you start managing dom  v start doing alot of ajax calls and,handle data intereactivity then -> jquery
+
+^ above approach wen becomes very tedious think of REDUX
+
+React has -> virtual dom
+			synthetic events
+			pure functions
+			
+			Pure functions
+			The function always returns the same result if the same arguments are passed in. It does not depend on any state, or data, change during a program’s execution. It must only depend on its input arguments.
+The function does not produce any observable side effects such as network requests, input and output devices, or data mutation.
+
+
+Pure fucniton
+function priceAfterTax(productPrice) {
+ return (productPrice * 0.20) + productPrice;
+}
+
+Impure
+
+var tax = 20;
+function calculateTax(productPrice) {
+ return (productPrice * (tax/100)) + productPrice; 
+}
+
+these above components help us in manage the
